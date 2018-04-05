@@ -9,7 +9,9 @@ if (!path) {
 }
 
 const parser = new xml2js.Parser();
-const builder = new xml2js.Builder();
+const builder = new xml2js.Builder({
+  xmldec: { version: "1.0", encoding: "UTF-8" }
+});
 
 console.log("reading file...");
 fs.readFile(path, (err, data) => {

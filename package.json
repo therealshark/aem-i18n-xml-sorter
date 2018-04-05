@@ -1,10 +1,11 @@
 {
   "name": "xmlsorter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sorts the Tags in aem i18n xml files",
   "main": "xmlsorter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg xmlsorter.js"
   },
   "author": "theshark",
   "license": "MIT",
